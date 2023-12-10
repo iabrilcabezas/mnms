@@ -51,4 +51,4 @@ else:
 assert np.all(splits >= 0)
 
 for s in splits:
-    model.get_model(s, args.lmax, keep_mask_est=True, keep_mask_obs=True, verbose=True)
+    model.get_model(s, args.lmax, keep_mask_est=True, keep_mask_obs=True, verbose=True, generate = False)
