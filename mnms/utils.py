@@ -5,7 +5,7 @@ from enlib import array_ops
 from optweight import alm_c_utils
 
 import numpy as np
-import ducc0
+import ducc # 0
 import matplotlib.pyplot as plt 
 from matplotlib import ticker
 from matplotlib.colors import LinearSegmentedColormap
